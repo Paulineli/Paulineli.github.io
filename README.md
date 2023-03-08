@@ -2,6 +2,7 @@
 
 ## 使用指南
 ### 安装
+- Mac 一般自带Ruby 无需安装 Ruby
 ```
 gem install bundle
 bundle install
