@@ -44,7 +44,8 @@ html[data-theme="dark"] {
     --global-bg-color                   : #{$background};
     // --global-footer-bg-color            : #16162a;
     --global-footer-bg-color            : #395d42;
-    --global-border-color               : #2d2d4a;
+    // --global-border-color               : #2d2d4a;
+    --global-border-color               : #{$dark-gray}; 
     --global-dark-border-color          : #{$background-light};
     --global-code-background-color      : #2d2d4a;
     --global-code-text-color            : #e4e6eb;
