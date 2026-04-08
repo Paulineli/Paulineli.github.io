@@ -1,0 +1,376 @@
+/* ==========================================================================
+   HOME PAGE - HugoBlox-inspired academic style
+   ========================================================================== */
+
+.home-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2em 1.5em;
+
+  .page {
+    float: none;
+    width: 100%;
+  }
+
+  .page__content {
+    a {
+      text-decoration: none;
+      color: var(--global-link-color);
+
+      &:hover {
+        color: var(--global-link-color-hover);
+      }
+    }
+
+    .profile-social a {
+      color: #fff;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    h2 {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
+}
+
+/* Hero / Profile Section — two-column layout */
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5em;
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.profile-card {
+  flex: 0 0 280px;
+  text-align: center;
+
+  @media (max-width: 600px) {
+    flex: none;
+    width: 100%;
+  }
+}
+
+.profile-avatar {
+  margin-bottom: 1em;
+
+  img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 4px var(--global-bg-color), 0 0 0 5px var(--global-border-color);
+  }
+
+  .avatar-dark {
+    display: none;
+  }
+}
+
+html[data-theme="dark"] .profile-avatar {
+  .avatar-light {
+    display: none;
+  }
+  .avatar-dark {
+    display: inline;
+  }
+}
+
+.profile-card {
+  .profile-name {
+    font-size: 1.75em;
+    font-weight: 700;
+    margin: 0 0 0.2em;
+    line-height: 1.3;
+    color: var(--global-text-color);
+  }
+
+  p.profile-role {
+    font-size: 0.95em;
+    color: var(--global-text-color-light);
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  p.profile-org {
+    font-size: 0.95em;
+    color: var(--global-base-color);
+    margin: 0.2em 0 0.6em;
+    line-height: 1.4;
+  }
+}
+
+  .profile-social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6em;
+    margin-top: 0.8em;
+    justify-content: center;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--global-base-color);
+      color: #fff;
+      font-size: 1em;
+      transition: all 0.2s ease;
+      text-decoration: none;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      opacity: 0.85;
+    }
+  }
+}
+
+.profile-bio {
+  flex: 1;
+  min-width: 0;
+
+  .section-title {
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid var(--global-base-color);
+    color: var(--global-text-color);
+  }
+
+  .subsection-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 1.5em 0 0.8em;
+    color: var(--global-text-color);
+  }
+
+  p {
+    font-size: 0.85em;
+    line-height: 1.7;
+    color: var(--global-text-color);
+  }
+}
+
+/* Section styles */
+.home-section {
+  margin-bottom: 2.5em;
+
+  .section-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 0 1em;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid var(--global-base-color);
+    color: var(--global-text-color);
+  }
+
+  p {
+    line-height: 1.8;
+    color: var(--global-text-color);
+  }
+}
+
+/* Education list */
+.education-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    position: relative;
+    padding: 0.8em 0 0.8em 2.2em;
+    border-left: 2px solid var(--global-border-color);
+    margin-left: 0.5em;
+    margin-bottom: 0;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 1.2em;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--global-base-color);
+    }
+
+    &:last-child {
+      border-left-color: transparent;
+    }
+  }
+
+  .edu-degree {
+    font-weight: 600;
+    color: var(--global-text-color);
+    display: block;
+    font-size: 1em;
+  }
+
+  .edu-detail {
+    color: var(--global-text-color-light);
+    font-size: 0.9em;
+    display: block;
+    margin-top: 0.1em;
+  }
+}
+
+/* News list */
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid var(--global-border-color);
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .news-date {
+    font-weight: 700;
+    color: var(--global-base-color);
+    margin-right: 0.3em;
+  }
+}
+
+/* Publication cards */
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.pub-card {
+  display: flex;
+  gap: 1.5em;
+  padding: 1.2em 1.5em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-color: var(--global-base-color);
+  }
+
+  .pub-thumb {
+    flex-shrink: 0;
+    width: 180px;
+    align-self: center;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      object-fit: cover;
+    }
+  }
+
+  .pub-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .pub-title {
+    font-size: 1.05em;
+    font-weight: 600;
+    margin: 0 0 0.3em;
+    line-height: 1.4;
+    color: var(--global-text-color);
+  }
+
+  .pub-venue {
+    font-size: 0.85em;
+    font-weight: 600;
+    color: var(--global-base-color);
+    margin-bottom: 0.3em;
+  }
+
+  .pub-authors {
+    font-size: 0.85em;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.6em;
+    line-height: 1.5;
+  }
+
+  .pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+
+    a {
+      display: inline-block;
+      padding: 0.25em 0.7em;
+      font-size: 0.8em;
+      border: 1px solid var(--global-base-color);
+      border-radius: 4px;
+      color: var(--global-base-color);
+      text-decoration: none;
+      transition: all 0.2s;
+
+      &:hover {
+        background: var(--global-base-color);
+        color: #fff;
+      }
+    }
+  }
+}
+
+/* Contact section */
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    color: var(--global-text-color);
+    font-size: 0.95em;
+
+    i {
+      color: var(--global-base-color);
+      width: 1.2em;
+      text-align: center;
+    }
+
+    a {
+      color: var(--global-link-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-link-color-hover);
+      }
+    }
+  }
+}

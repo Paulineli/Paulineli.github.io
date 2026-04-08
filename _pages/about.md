@@ -1,56 +1,126 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
+title: "Home"
+layout: home
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<div class="profile-header">
+  <div class="profile-card">
+    <div class="profile-avatar">
+      <img class="avatar-light" src="/images/profile2.jpg" alt="Li, Puyin">
+      <img class="avatar-dark" src="/images/profile1.jpg" alt="Li, Puyin">
+    </div>
+    <h1 class="profile-name">Li, Puyin</h1>
+    <p class="profile-role">李浦银</p>
+    <p class="profile-role">MSc Student</p>
+    <p class="profile-org">Stanford University</p>
+    <div class="profile-social">
+      <a href="mailto:puyinli@stanford.edu" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/Paulineli" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://scholar.google.com/citations?user=w0wjJZ4AAAAJ&hl=zh-CN" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a href="https://www.linkedin.com/in/puyin-li-32709a299/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://x.com/PuyinLi" title="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+    </div>
+  </div>
+  <div class="profile-bio">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      Hello! I am a master's student in <a href="https://symsys.stanford.edu/" target="_blank">Symbolic Systems</a> at Stanford University, advised by <a href="https://stanford.edu/~icard/" target="_blank">Thomas Icard</a>. I also work at <a href="https://stai.stanford.edu/" target="_blank">Stanford Translational  AI (STAI) Lab</a> as a research assistant, supervised by <a href="https://stanford.edu/~eadeli/" target="_blank">Ehsan Adeli</a>. I will begin my PhD program in Computer Science at Stanford University in Fall 2026.
+    </p>
+    <p>
+      I am broadly interested in evaluating, improving, and interpreting foudation models' reasoning abilities as cognitive agents. This interest spans topics including causality, visual understanding and reasoning, mechanistic interpretability, formal methods, etc. My aim is to create powerful, faithful, and interpretable AI systems that can robustly interact with the noisy (physical) real-world. I believe in cross-disciplinary collaboration in AI.
+    </p>
+    <p>
+      Prior to Stanford, I studied logic and argumentation with <a href="https://scholar.google.com/citations?user=A7I35cAAAAAJ&hl=en" target="_blank">Dov Gabbay</a> and <a href="https://person.zju.edu.cn/en/beishui#756204" target="_blank">Beishui Liao (廖备水)</a> at <a href="https://person.zju.edu.cn/en/beishui#756204" target="_blank">ZLAIRE</a>. I am also a Morningside Culture China Scholar at Zhejiang University, which is a life-changing program initiated by a beloved Professor <a href="https://zhoushengchun.life/en/" target="_blank">Shengchun Zhou (周生春)</a>.
+    </p>
+    <p>
+      I enjoy music and tennis. I play the piano, guitar, and bass, and I’m in a band called <em>The Wishes</em>. I also sing alto in the <a href="https://www.instagram.com/singplusplus/" target="_blank">Stanford Sing++</a> a cappella group. 
+      <!-- I occasionally post some rather lame videos of myself singing Mandarin songs on RedNote just for fun.  -->
+    </p>
+  </div>
+</div>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<div class="home-section">
+  <h2 class="section-title">Education</h2>
+  <ul class="education-list">
+    <li>
+      <span class="edu-degree">Ph.D. in Computer Science, 2026-</span>
+      <span class="edu-detail">School of Engineering, Stanford University</span>
+    </li>
+    <li>
+      <span class="edu-degree">M.S. in Symbolic Systems, 2023–2026</span>
+      <span class="edu-detail">School of Humanities and Sciences, Stanford University</span>
+    </li>
+    <li>
+      <span class="edu-degree">B.A. in Philosophy (Minor in Physics), 2018–2023</span>
+      <span class="edu-detail">Chu Kochen Honors College, Zhejiang University</span>
+    </li>
+    <li>
+      <span class="edu-degree">Non-Degree Programs</span>
+      <span class="edu-detail">Visiting Student in Philosophy of Science, Mansfield College, University of Oxford, 2020-2021</span>
+      <span class="edu-detail">Visiting Student in Management Sciences and Economy, Guanghua School of Management, Peking University, 2021-2022</span>
+      <span class="edu-detail">Tsinghua Logic Summer School 2023; ESSLLI 2024; NASSLLI 2025.</span>
+    </li>
+  </ul>
+</div>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<div class="home-section">
+  <h2 class="section-title">Recent News</h2>
+  <ul class="news-list">
+    <li><span class="news-date">[04/2026]</span> QuantiPhy <a href="https://huggingface.co/datasets/PaulineLi/QuantiPhy" target="_blank">full set</a> is now available on HuggingFace🤗.</li>
+    <li><span class="news-date">[03/2026]</span> QuantiPhy is accepted by <a href="https://cvpr.thecvf.com/" target="_blank">CVPR 2026</a></li>
+    <li><span class="news-date">[02/2026]</span> I am admitted to Stanford CS PhD program 🎉.</li>
+  </ul>
+</div>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<div class="home-section">
+  <h2 class="section-title">Selected Publications</h2>
+  <div class="pub-list">
+    <div class="pub-card">
+      <div class="pub-thumb">
+        <img src="/images/pub_001.png" alt="QuantiPhy">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">QuantiPhy: A Quantitative Benchmark Evaluating Physical Reasoning Abilities of Vision-Language Models</div>
+        <div class="pub-venue">CVPR, 2026</div>
+        <div class="pub-authors">Li Puyin*, Tiange Xiang*, Ella Mao*, Shirley Wei, Xinye Chen, Adnan Masood, Li Fei-fei†, Ehsan Adeli†</div>
+        <div class="pub-links">
+          <a href="https://quantiphy.stanford.edu/">Homepage</a>
+          <a href="https://arxiv.org/pdf/2512.19526">Paper</a>
+          <a href="https://github.com/Paulineli/QuantiPhy">Code</a>
+        </div>
+      </div>
+    </div>
+    <div class="pub-card">
+      <div class="pub-thumb">
+        <img src="/images/pub_003.png" alt="Apple">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">Bucketing the Good Apples: A Method for Diagnosing and Improving Causal Abstraction</div>
+        <div class="pub-venue">Preprint available soon</div>
+        <div class="pub-authors">Li Puyin*, Jiyuan Tan*, Ahmad Jabbar, Thomas Icard†, Atticus Geiger†</div>
+        <!-- <div class="pub-links">
+          <a href="#">Paper</a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<div class="home-section">
+  <h2 class="section-title">Contact</h2>
+  <div class="contact-info">
+    <div class="contact-item">
+      <i class="fas fa-envelope"></i>
+      <a href="puyinli@stanford.edu">puyinli@stanford.edu</a>
+    </div>
+    <div class="contact-item">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>CoDa, Stanford University</span>
+    </div>
+  </div>
+</div>
