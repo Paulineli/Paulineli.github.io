@@ -77,7 +77,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="home-section">
+<div class="home-section" id="selected-publications">
   <h2 class="section-title">Selected Publications</h2>
   <div class="pub-list">
     <div class="pub-card">
