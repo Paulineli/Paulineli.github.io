@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Li, Puyin (李浦银)"
   pronouns         : # example: "she/her"  
-  bio              : "Just LOSE it. 💪🏻"
+  bio              : "Enjoy the treasure hunt! 🤩"
   location         : "Stanford, CA"
   employer         : "Stanford University"
   uri              : # URL
@@ -243,10 +243,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: ""

@@ -1,6 +1,9 @@
 main:
-  # - title: "Home"
-  #   url: /
+  - title: "Home"
+    url: /
+
+  - title: "Publications"
+    url: /#selected-publications
 
   # - title: "Publications"
   #   url: /publications/
@@ -14,8 +17,9 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
 
-  # - title: "Philosophy"
-  #   url: /year-archive/
+  - title: "Philosophy Writings"
+    url: /year-archive/
 
   # - title: "CV"
   #   url: /cv/
+
