@@ -62,7 +62,7 @@ redirect_from:
     <li>
       <span class="edu-degree">Non-Degree Programs</span>
       <span class="edu-detail">Visiting Student in Philosophy of Science, Mansfield College, University of Oxford, 2020-2021</span>
-      <span class="edu-detail">Visiting Student in Management Sciences and Economy, Guanghua School of Management, Peking University, 2021-2022</span>
+      <span class="edu-detail">Visiting Student in Management Sciences & Economy, Guanghua School of Management, Peking University, 2021-2022</span>
       <span class="edu-detail">Tsinghua Logic Summer School 2023; ESSLLI 2024; NASSLLI 2025.</span>
     </li>
   </ul>
