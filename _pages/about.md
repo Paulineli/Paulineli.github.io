@@ -32,7 +32,7 @@ redirect_from:
       Hello! I am a master's student in <a href="https://symsys.stanford.edu/" target="_blank">Symbolic Systems</a> at Stanford University, advised by <a href="https://stanford.edu/~icard/" target="_blank">Thomas Icard</a>. I also work at <a href="https://stai.stanford.edu/" target="_blank">Stanford Translational  AI (STAI) Lab</a> as a research assistant, supervised by <a href="https://stanford.edu/~eadeli/" target="_blank">Ehsan Adeli</a>. I will begin my PhD program in Computer Science at Stanford University in Fall 2026.
     </p>
     <p>
-      I am broadly interested in evaluating, improving, and interpreting foudation models' reasoning abilities as cognitive agents. This interest spans topics including causality, visual understanding and reasoning, mechanistic interpretability, formal methods, etc. My aim is to create powerful, faithful, and interpretable AI systems that can robustly interact with the noisy (physical) real-world. I believe in cross-disciplinary collaboration in AI.
+      I am broadly interested in evaluating, improving, and interpreting foundation models' reasoning abilities as cognitive agents. This interest spans topics including causality, visual understanding and reasoning, mechanistic interpretability, formal methods, etc. My aim is to create powerful, faithful, and interpretable AI systems that can robustly interact with the noisy (physical) real-world. I believe in cross-disciplinary collaboration in AI.
     </p>
     <p>
       Prior to Stanford, I studied logic and argumentation with <a href="https://scholar.google.com/citations?user=A7I35cAAAAAJ&hl=en" target="_blank">Dov Gabbay</a> and <a href="https://person.zju.edu.cn/en/beishui#756204" target="_blank">Beishui Liao (廖备水)</a> at <a href="https://person.zju.edu.cn/en/beishui#756204" target="_blank">ZLAIRE</a>. I am also a Morningside Culture China Scholar at Zhejiang University, which is a life-changing program initiated by a beloved professor <a href="https://zhoushengchun.life/en/" target="_blank">Shengchun Zhou (周生春)</a>.
@@ -101,11 +101,11 @@ redirect_from:
       </div>
       <div class="pub-info">
         <div class="pub-title">Bucketing the Good Apples: A Method for Diagnosing and Improving Causal Abstraction</div>
-        <div class="pub-venue">Preprint available soon</div>
+        <div class="pub-venue">Preprint, 2025</div>
         <div class="pub-authors">Li Puyin*, Jiyuan Tan*, Ahmad Jabbar, Thomas Icard†, Atticus Geiger†</div>
-        <!-- <div class="pub-links">
-          <a href="#">Paper</a>
-        </div> -->
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2605.02234" target="_blank">Paper</a>
+        </div>
       </div>
     </div>
   </div>
