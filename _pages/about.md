@@ -101,7 +101,7 @@ redirect_from:
       </div>
       <div class="pub-info">
         <div class="pub-title">Bucketing the Good Apples: A Method for Diagnosing and Improving Causal Abstraction</div>
-        <div class="pub-venue">Preprint, 2025</div>
+        <div class="pub-venue">Preprint, 2026</div>
         <div class="pub-authors">Li Puyin*, Jiyuan Tan*, Ahmad Jabbar, Thomas Icard†, Atticus Geiger†</div>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2605.02234" target="_blank">Paper</a>
