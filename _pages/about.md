@@ -105,6 +105,7 @@ redirect_from:
         <div class="pub-authors">Li Puyin*, Jiyuan Tan*, Ahmad Jabbar, Thomas Icard†, Atticus Geiger†</div>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2605.02234" target="_blank">Paper</a>
+          <a href="https://github.com/Paulineli/apple-bucket" target="_blank">Code</a>
         </div>
       </div>
     </div>
