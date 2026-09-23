@@ -16,7 +16,7 @@ redirect_from:
     </div>
     <h1 class="profile-name">Li, Puyin</h1>
     <p class="profile-role">李浦银</p>
-    <p class="profile-role">MSc Student</p>
+    <p class="profile-role">PhD Student</p>
     <p class="profile-org">Stanford University</p>
     <div class="profile-social">
       <a href="mailto:puyinli@stanford.edu" title="Email"><i class="fas fa-envelope"></i></a>
@@ -29,10 +29,10 @@ redirect_from:
   <div class="profile-bio">
     <h2 class="section-title">About Me</h2>
     <p>
-      Hello! I am a master's student in <a href="https://symsys.stanford.edu/" target="_blank">Symbolic Systems</a> at Stanford University, advised by <a href="https://stanford.edu/~icard/" target="_blank">Thomas Icard</a>. I also work at <a href="https://stai.stanford.edu/" target="_blank">Stanford Translational  AI (STAI) Lab</a> as a research assistant, supervised by <a href="https://stanford.edu/~eadeli/" target="_blank">Ehsan Adeli</a>. I will begin my PhD program in Computer Science at Stanford University in Fall 2026.
+      Hello! I am a first-year PhD student in Computer Science at Stanford University, currently rotating with <a href="https://cicl.stanford.edu/" target="_blank">Tobias Gerstenberg</a> and <a href="https://stanford.edu/~icard/" target="_blank">Thomas Icard</a>. Previously, I was a master's student in <a href="https://symsys.stanford.edu/" target="_blank">Symbolic Systems</a> at Stanford, advised by <a href="https://stanford.edu/~icard/" target="_blank">Thomas Icard</a>, and a research assistant at the <a href="https://stai.stanford.edu/" target="_blank">Stanford Translational AI (STAI) Lab</a>, supervised by <a href="https://stanford.edu/~eadeli/" target="_blank">Ehsan Adeli</a>.
     </p>
     <p>
-      I am broadly interested in evaluating, improving, and interpreting foundation models' reasoning abilities as cognitive agents. This interest spans topics including causality, visual understanding and reasoning, mechanistic interpretability, formal methods, etc. My aim is to create powerful, faithful, and interpretable AI systems that can robustly interact with the noisy (physical) real-world. I believe in cross-disciplinary collaboration in AI.
+      I am broadly interested in evaluating, improving, and interpreting foundation models' reasoning abilities as cognitive agents. This interest spans topics including causality, visual understanding and reasoning, mechanistic interpretability, formal methods, etc. My aim is to create powerful, faithful, and interpretable AI systems that can robustly interact with the noisy (physical) real world. I believe in cross-disciplinary collaboration in AI.
     </p>
     <p>
       Prior to Stanford, I studied logic and argumentation with <a href="https://scholar.google.com/citations?user=A7I35cAAAAAJ&hl=en" target="_blank">Dov Gabbay</a> and <a href="https://person.zju.edu.cn/en/beishui#756204" target="_blank">Beishui Liao (廖备水)</a> at <a href="https://person.zju.edu.cn/en/beishui#756204" target="_blank">ZLAIRE</a>. I am also a Morningside Culture China Scholar at Zhejiang University, which is a life-changing program initiated by a beloved professor <a href="https://zhoushengchun.life/en/" target="_blank">Shengchun Zhou (周生春)</a>.
@@ -71,6 +71,8 @@ redirect_from:
 <div class="home-section">
   <h2 class="section-title">Recent News</h2>
   <ul class="news-list">
+    <li><span class="news-date">[09/2026]</span> I started my PhD in Computer Science at Stanford University 🌲.</li>
+    <li><span class="news-date">[07/2026]</span> The <a href="https://quantiphy.stanford.edu/competition/index.html" target="_blank">QuantiPhy Challenge</a> is accepted as an official <a href="https://neurips.cc/" target="_blank">NeurIPS 2026</a> competition! Submissions are open until Oct 23, 2026 — come join us 🏆.</li>
     <li><span class="news-date">[04/2026]</span> QuantiPhy <a href="https://huggingface.co/datasets/PaulineLi/QuantiPhy" target="_blank">full set</a> is now available on HuggingFace🤗.</li>
     <li><span class="news-date">[03/2026]</span> QuantiPhy is accepted by <a href="https://cvpr.thecvf.com/" target="_blank">CVPR 2026</a></li>
     <li><span class="news-date">[02/2026]</span> I am admitted to Stanford CS PhD program 🎉.</li>
