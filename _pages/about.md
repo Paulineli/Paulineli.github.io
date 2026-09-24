@@ -75,7 +75,6 @@ redirect_from:
     <li><span class="news-date">[07/2026]</span> The <a href="https://quantiphy.stanford.edu/competition/index.html" target="_blank">QuantiPhy Challenge</a> is accepted as an official <a href="https://neurips.cc/" target="_blank">NeurIPS 2026</a> competition! Submissions are open until Oct 23, 2026 — come join us 🏆.</li>
     <li><span class="news-date">[04/2026]</span> QuantiPhy <a href="https://huggingface.co/datasets/PaulineLi/QuantiPhy" target="_blank">full set</a> is now available on HuggingFace🤗.</li>
     <li><span class="news-date">[03/2026]</span> QuantiPhy is accepted by <a href="https://cvpr.thecvf.com/" target="_blank">CVPR 2026</a></li>
-    <li><span class="news-date">[02/2026]</span> I am admitted to Stanford CS PhD program 🎉.</li>
   </ul>
 </div>
 
